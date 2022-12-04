@@ -1,4 +1,4 @@
-# Loan default classification
+# Loan default prediction
 
 **Highlights** : Classification, imbalanced data, default detection
 
