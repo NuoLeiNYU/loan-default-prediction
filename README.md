@@ -7,7 +7,7 @@
 
 Default prediction is a classic problem in financial institution. Based on the [loan default dataset](https://www.kaggle.com/datasets/kmldas/loan-default-prediction) from Kaggle, we first deal with **data imbalance** by `SMOTE` upsampling.Then we build multiple models including `Logistic regression`, `SVM`, `Random forest`, `LightGBM`, `XGBoost` to do the classification. 
 
-**_The full modeling steps are in this [jupyter-notebook](https://github.com/NuoLeiNYU/loan-default-classification/blob/master/loan-default-classification.ipynb)_
+**_The full modeling steps are in this [jupyter-notebook](https://github.com/NuoLeiNYU/loan-default-classification/blob/master/loan-default-prediction.ipynb)_
 
 ## 2. Data description
 
