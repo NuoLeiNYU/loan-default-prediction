@@ -43,9 +43,9 @@ Annual salary distribution
 
 ## 4. Model result
 
-|    Model    | Logistic Regression |  SVM | Random forest | LightGBM | XGBoost |
-|:-----------:|:-------------------:|:----:|:-------------:|:--------:|:-------:|
-| Recall Rate |         0.85        | 0.87 |      0.87     |   0.69   |   0.77  |
+|    Model    | Logistic Regression | SVM  | Random forest | LightGBM | XGBoost |
+| :---------: | :-----------------: | :--: | :-----------: | :------: | :-----: |
+| Recall Rate |        0.85         | 0.87 |     0.89      |   0.73   |  0.77   |
 
 
 ![image](readme_image/roc%20curve.svg)
@@ -56,7 +56,7 @@ Annual salary distribution
 
 In this notebook we deal with a imbalanced loan default dataset with various ML models. 
 
-Our experiment result shows that `SVM` and `Random Forest` model performs the best on test set with a `Recall` rate of **87%**.
+Our experiment result shows that `Random Forest`  model performs the best on test set with a `Recall` rate of **89%**.
 
 But `Logistic Regression` model stands out of all other models with the best AUC of **0.5238** in `precision-recall curve`.
 
